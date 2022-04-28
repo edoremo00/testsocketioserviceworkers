@@ -10,7 +10,8 @@
 const {Server, Socket}=require('socket.io')
 const io=new Server({
     cors:{
-        origin: "http://127.0.0.1:5500",//SENZA CORS NON VA NULLA
+        origin:'https://unrivaled-conkies-a4673f.netlify.app/',
+        //origin: "http://127.0.0.1:5500",//SENZA CORS NON VA NULLA
         methods: ["GET", "POST"]
     }
 })
