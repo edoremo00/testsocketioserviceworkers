@@ -3,7 +3,7 @@
 //parte client
 //const socket=io('http://localhost:3000')//location del server
 
-const socket=io('https://unrivaled-conkies-a4673f.netlify.app/')//location del server
+const socket=io('https://unrivaled-conkies-a4673f.netlify.app/socket.io/socket.io.js')//location del server
 const messageForm=document.getElementById('send-container')
 const messagecontainer=document.getElementById('message-container')
 const messageInput=document.getElementById('message-input')
